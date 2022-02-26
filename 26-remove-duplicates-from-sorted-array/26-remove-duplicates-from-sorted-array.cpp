@@ -13,3 +13,17 @@ public:
         
     }
 };
+
+
+OR
+
+class Solution {
+public:
+    int removeDuplicates(vector<int>& nums) {
+        auto ip =nums.begin();
+        ip = std::unique(nums.begin(), nums.end() );
+        nums.resize(std::distance(nums.begin(), ip));
+        
+        return nums.size();
+    }
+};
