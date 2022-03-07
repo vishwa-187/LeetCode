@@ -1,10 +1,7 @@
 class Solution {
 public:
     bool checkIfPangram(string s) {
-        map<char,int> m;
-        for(int i = 0;i<s.length();i++){
-            m[s[i]]++;
-        }
+       
         int count =0;
         sort(s.begin(),s.end());
         for(int i = 0;i<s.length();i++){
