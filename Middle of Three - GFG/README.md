@@ -1,5 +1,5 @@
 # Middle of Three
-## Basic 
+##  Basic 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given three distinct numbers&nbsp;A, B and C. Find the number with value in middle (Try to do it with minimum comparisons).</span></p>
 
