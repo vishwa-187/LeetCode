@@ -11,9 +11,9 @@ class Solution{
   public:
     int middle(int A, int B, int C){
         //code here//Position this line where user code will be pasted.
-        vector<int> v{A,B,C};
-        sort(v.begin(),v.end());
-        return v[1];
+        vector <int> ans{A,B,C};
+        sort(ans.begin(),ans.end());
+        return ans[1];
         
     }
 };
